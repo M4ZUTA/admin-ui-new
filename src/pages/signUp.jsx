@@ -1,13 +1,13 @@
 import React from "react";
 import AuthLayout from "../components/Layouts/AuthLayout";
-import FormSignIn from "../components/Fragments/FormSignIn";
+import FormSignUp from "../components/Fragments/FormSignUp";
 
 function signIn() {
     return (
         <AuthLayout>
-            <FormSignIn />
+            <FormSignUp />
         </AuthLayout>
     );
 }
 
-export default signIn;
+export default signUp;

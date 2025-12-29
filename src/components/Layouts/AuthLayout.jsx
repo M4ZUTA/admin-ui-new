@@ -1,8 +1,8 @@
-import React from "react";
+import React, { Children } from "react";
 import Logo from "../Elements/Logo";
 
-function AuthLayout(props){
-    const { chiildren } = props;
+function AuthLayout(props) {
+    const { children } = props;
 
     return (
     <>
@@ -10,7 +10,7 @@ function AuthLayout(props){
             {/* container start */}
             <div className="w-full max-w-sm">
                 <Logo />
-                {/* form */}
+                {children}
             </div>
             {/* container end */}
             </main>

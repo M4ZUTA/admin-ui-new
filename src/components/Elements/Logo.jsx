@@ -1,6 +1,6 @@
 import React from "react";
 
-function logo(){
+function Logo() {
     return(
       <>
         <div className="flex justify-center font-poppins tracking-wide text-primary text-4xl">
